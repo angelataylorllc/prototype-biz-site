@@ -32,9 +32,9 @@ export default function Home() {
                     <a className="cursor-pointer text-l  text-lime-500" href="#">Home</a>
                     <Image className="mx-0.5" src={underline} />
                   </div></li>
-                <li><a className="cursor-pointer text-l lg:px-3" href="#">Services</a></li>
-                <li><a className="cursor-pointer text-l lg:px-3" href="#">How It Works</a></li>
-                <li><a className="cursor-pointer text-l lg:px-3 " href="#">Contact</a></li>
+                <li><a className="cursor-pointer text-l lg:px-3" href="#services">Services</a></li>
+                <li><a className="cursor-pointer text-l lg:px-3" href="#HowItWorks">How It Works</a></li>
+                <li><a className="cursor-pointer text-l lg:px-3" href="#contact">Contact</a></li>
               </ul>
 
             </div>
@@ -109,7 +109,7 @@ export default function Home() {
     {/* Current Offering Div */}
 
 
-      <div className="flex flex-col w-5/6 m-auto mb-12 md:w-2/4 md:mx-auto lg:my-20 lg:w-2/5 ">
+      <div id="services" className="flex flex-col w-5/6 m-auto mb-12 md:w-2/4 md:mx-auto lg:my-20 lg:w-2/5 ">
         <h2 className="text-white font-semibold mt-20 text-5xl text-center lg:text-5xl 2xl:text-6xl">Current Offering</h2>
         <Image className="p-10 md:h-80 md:w-96 md:m-auto lg:h-96 lg:w-auto" src= {croissant} />
         <h1 className="text-white px-10 md:px-8 lg:px-10 2xl:pl-28 text-3xl font-bold">Small Business Site</h1>
@@ -131,7 +131,7 @@ export default function Home() {
     {/* How It Works Div */}
 
 
-    <div className="mb-10">
+    <div id="HowItWorks" className="mb-10">
       <h1 className="text-white text-4xl mx-8 mt-12 font-bold text-center p-10 lg:my-12 lg:text-5xl 2xl:mt-20"> How It Works</h1>
 
       <div className="flex flex-row bg-[url('.//public/ramengray40.jpg')] 
@@ -229,7 +229,7 @@ export default function Home() {
     {/* Client Form Section */}
 
 
-    <div className="flex flex-row bg-[url('.//public/FormLinkBkgnd.svg')] w-auto h-96 bg-cover md:w-3/4 
+    <div id="contact" className="flex flex-row bg-[url('.//public/FormLinkBkgnd.svg')] w-auto h-96 bg-cover md:w-3/4 
     md:rounded-lg lg:rounded-2xl md:mx-auto lg:w-4/6">
 
       <div className="flex flex-col p-8 md:m-auto lg:w-auto lg:flex-row lg:p-2 2xl:w-5/6">
@@ -241,7 +241,10 @@ export default function Home() {
           it to behave.</p>
         </div>
        <div className="m-auto lg:px-16">
+        <a href="https://forms.gle/fNQzHquqMgUKgSg58">
         <button className="bg-lime-400 rounded-2xl w-28 p-3 mx-auto whitespace-nowrap">Access Form</button>
+        </a>
+        
        </div>
 
       </div>
@@ -263,5 +266,3 @@ export default function Home() {
     </main>
   );
 }
-
-// 908e8e
