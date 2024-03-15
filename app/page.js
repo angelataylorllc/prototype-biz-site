@@ -43,7 +43,7 @@ export default function Home() {
         {/* Main Site Image & Title */}
 
         <div className="flex flex-row bg-[url('.//public/charcuteriesnack70.JPG')] 
-          w-auto h-72 bg-cover md:w-3/4 md:mx-auto lg:h-auto">
+          w-auto h-52 sm:h-72 bg-cover md:w-3/4 md:mx-auto lg:h-auto">
 
             <div className="flex flex-col">
               <h2 className="text-lime-500 w-48 font-semibold mx-8 my-4 text-lg sm:text-2xl lg:my-8 lg:text-3xl">WELCOME TO</h2>
@@ -61,10 +61,10 @@ export default function Home() {
         {/* Customized */}
 
 
-        <div className="flex flex-col mx-8 -mb-10 sm:mb-10 sm:mt-16 md:mt-20 md:-mb-20 lg:-mb-36 lg:mt-48 xl:-mb-48">
-          <div className="text-lime-400 font-semibold  text-3xl text-center mt-24">CUSTOMIZED</div>
-          <div className="text-white font-semibold  sm:mt-4 sm:w-5/6 sm:mx-auto text-4xl text-center mt-10 md:w-3/6 
-          md:-mb-8 lg:w-2/6 2xl:-mb-16 2xl:text-5xl">
+        <div className="flex flex-col mx-8 -mb-4 sm:mb-10 sm:mt-16 md:mt-20 md:-mb-20 lg:-mb-36 lg:mt-48 xl:-mb-48">
+          <div className="text-lime-400 font-semibold text-2xl sm:text-3xl text-center mt-24">CUSTOMIZED</div>
+          <div className="text-white font-semibold  sm:mt-4 sm:w-5/6 sm:mx-auto text-3xl sm:text-4xl text-center 
+          mt-4 sm:mt-10 md:w-3/6 md:-mb-8 lg:w-2/6 2xl:-mb-16 2xl:text-5xl">
             Web Development Services</div>
         </div>
 
@@ -83,10 +83,10 @@ export default function Home() {
       {/* Experience Section */}
 
 
-        <div className="flex flex-col mx-8 -mt-6 sm:-mt-12 md:-mt-24  lg:-mt-40 lg:mb-36 xl:-mt-48 2xl:-mt-64">
-          <div className="text-lime-400 font-semibold  text-3xl text-center">EXPERIENCE</div>
-          <div className="text-white font-semibold  text-4xl text-center mt-10 sm:w-4/6 sm:mx-auto md:w-5/12 
-          md:mx-auto md:mb-10 2xl:text-5xl">Serving for More Than 15 Years</div>
+        <div className="flex flex-col mx-8 -mt-2 sm:-mt-12 md:-mt-24  lg:-mt-40 lg:mb-36 xl:-mt-48 2xl:-mt-64">
+          <div className="text-lime-400 font-semibold text-2xl sm:text-3xl text-center">EXPERIENCE</div>
+          <div className="text-white font-semibold text-3xl sm:text-4xl text-center mt-4 sm:mt-10 sm:w-4/6 sm:mx-auto 
+          md:w-5/12 md:mx-auto md:mb-10 2xl:text-5xl">Serving for More Than 15 Years</div>
           <div className="text-white text-center text-sm font-light leading-6 my-6 sm:mb-12 md:mt-auto lg:w-9/12 lg:mx-auto 
           lg:text-base lg:leading-7 xl:leading-8 xl:w-7/12 xl:mt-10 2xl:mt-2">
             <p>Welcome to CollierTech, where 15 years of expertise converge to offer unmatched 
@@ -188,8 +188,9 @@ export default function Home() {
 
 
     <div className="flex flex-col m-8 mb-0 md:w-3/6 md:mx-auto md:-mb-24 md:mt-40 md:w-4/6 lg:-mb-72 lg:mt-48 lg:w-3/6">
-      <div className="text-lime-400 font-semibold  text-3xl text-center mt-24">ABOUT US</div>
-      <div className="text-white font-semibold  text-4xl text-center mt-10 w-4/6 mx-auto -mb-8 2xl:text-5xl 2xl:mb-0">
+      <div className="text-lime-400 font-semibold text-2xl sm:text-3xl text-center mt-24">ABOUT US</div>
+      <div className="text-white font-semibold text-3xl sm:text-4xl text-center mt-4 sm:mt-10 w-5/6 sm:w-4/6 mx-auto -mb-20 
+      2xl:text-5xl 2xl:mb-0">
         We Build Beautiful Websites for You</div>
     </div>
 
@@ -204,7 +205,8 @@ export default function Home() {
 
     {/* About Us Section - Background Experience */}
 
-    <div className="flex flex-col text-white text-sm leading-7 text-justify p-10 mx-auto  mt-6 md:mt-0 xl:p-20 2xl:leading-8 2xl:text-lg">
+    <div className="flex flex-col text-white text-sm leading-7 text-justify p-10 mx-auto  mt-6 md:mt-0 xl:p-20 
+    2xl:leading-8 2xl:text-lg">
       <div className="flex flex-col md:flex-row">
         <div className="my-4 md:m-4">CollierTech brings over a decade of expertise in software development, systems administration, 
           and network operations, finely tuned for small businesses. With a proven track record of 
