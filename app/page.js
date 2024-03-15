@@ -10,7 +10,7 @@ import croissant from './/public/croissantsandwich30.jpg'
 export default function Home() {
   return (
     <main className="bg-black ">
-      <section className="min-h-screen">
+      <section className="min-h-screen min-w-full">
 
 
         {/* All Text above first white triangles */}
@@ -21,11 +21,11 @@ export default function Home() {
           {/* Nav Menu */}
 
           <nav className="flex flex-col md:flex-row lg:w-9/12 lg:mx-auto lg:pt-12">
-            <div className="text-white text-2xl font-bold flex flex-col text-center py-10 md:pr-10 lg:pr-0">
+            <div className="text-white  text-lg sm:text-2xl font-bold flex flex-col text-center pt-10 pb-4 sm:py-10 md:pr-10 lg:pr-0">
               CollierTechnologies©</div>
 
             <div className="xl:ml-auto">
-              <ul className="flex justify-evenly text-white py-10  md:gap-10 md:mx-10 md:whitespace-nowrap lg:gap-8 
+              <ul className="flex justify-evenly text-xs sm:text-sm text-white pt-4 pb-10 sm:py-10  md:gap-10 md:mx-10 md:whitespace-nowrap lg:gap-8 
               lg:mr-0 lg:ml-20 xl:mr-16 ">
                 <li>
                   <div className="flex flex-col">
@@ -45,13 +45,13 @@ export default function Home() {
         <div className="flex flex-row bg-[url('.//public/charcuteriesnack70.JPG')] 
           w-auto h-72 bg-cover md:w-3/4 md:mx-auto lg:h-auto">
 
-            <div className="flex flex-col ">
-              <h2 className="text-lime-500 font-semibold mx-8 my-4 text-2xl lg:my-8 lg:text-3xl">WELCOME TO</h2>
-              <h1 className="text-white text-5xl mx-8 font-semibold lg:text-6xl"> Your Small Business</h1>
-              <p className="text-white m-8 font-semibold lg:text-2xl">Custom Tailored Website</p>
+            <div className="flex flex-col">
+              <h2 className="text-lime-500 w-48 font-semibold mx-8 my-4 text-lg sm:text-2xl lg:my-8 lg:text-3xl">WELCOME TO</h2>
+              <h1 className="text-white text-3xl sm:text-5xl mx-8 font-semibold lg:text-6xl"> Your Small Business</h1>
+              <p className="text-white text-sm sm:text-lg m-8 font-semibold lg:text-2xl">Custom Tailored Website</p>
             </div>
 
-          <div className= "self-center mx-4 lg:w-48 xl:ml-auto ">
+          <div className= "invisible sm:visible self-center mx-4 lg:w-48 xl:ml-auto ">
             <Image className="h-64 w-36" src={katakana} />
           </div>
 
@@ -110,14 +110,14 @@ export default function Home() {
 
 
       <div id="services" className="flex flex-col w-5/6 m-auto mb-12 md:w-2/4 md:mx-auto lg:my-20 lg:w-2/5 ">
-        <h2 className="text-white font-semibold mt-20 text-5xl text-center lg:text-5xl 2xl:text-6xl">Current Offering</h2>
+        <h2 className="text-white font-semibold mt-20 text-3xl sm:text-5xl text-center lg:text-5xl 2xl:text-6xl">Current Offering</h2>
         <Image className="p-10 md:h-80 md:w-96 md:m-auto lg:h-96 lg:w-auto" src= {croissant} />
-        <h1 className="text-white px-10 md:px-8 lg:px-10 2xl:pl-28 text-3xl font-bold">Small Business Site</h1>
+        <h1 className="text-white p-4 sm:px-10 md:px-8 lg:px-10 2xl:pl-28 text-xl sm:text-3xl font-bold">Small Business Site</h1>
 
         <div className="flex mb-10 2xl:mb-20">
-          <div className="text-white text-base p-10 md:px-8 lg:px-10 2xl:pl-28 2xl:pr-0 
+          <div className="text-white text-sm sm:text-base p-4 sm:p-10 md:px-8 lg:px-10 2xl:pl-28 2xl:pr-0 
           whitespace-nowrap  flex-1">1-3 pages, 14 days delivery</div>
-          <div className="text-white text-3xl font-bold my-auto text-center flex-1">$350</div>
+          <div className="text-white text-xl sm:text-3xl font-bold my-auto text-center flex-1">$350</div>
         </div>
       </div>
 
@@ -132,15 +132,15 @@ export default function Home() {
 
 
     <div id="HowItWorks" className="mb-10">
-      <h1 className="text-white text-4xl mx-8 mt-12 font-bold text-center p-10 lg:my-12 lg:text-5xl 2xl:mt-20"> How It Works</h1>
+      <h1 className="text-white text-2xl sm:text-4xl mx-8 mt-12 font-bold text-center p-10 lg:my-12 lg:text-5xl 2xl:mt-20"> How It Works</h1>
 
       <div className="flex flex-row bg-[url('.//public/ramengray40.jpg')] 
-      w-4/6 mx-auto rounded-md h-72 bg-cover mx-10 md:w-2/4 md:mx-auto lg:w-2/6 md:rounded-lg lg:rounded-2xl lg:mb-24">
+      w-4/6 mx-auto rounded-md h-72 bg-cover mx-10 md:w-2/4 md:mx-auto lg:w-2/6 lg:rounded-2xl lg:mb-24">
 
         <div className="flex flex-col ">
-          <h1 className="text-white text-3xl mx-8 mt-8 text-center font-semibold whitespace-nowrap"> 
+          <h1 className="text-white text-xl sm:text-3xl mx-4 sm:mx-8 mt-4 sm:mt-8 text-center font-semibold"> 
             1. Fill Out Site Survey</h1>
-          <p className="text-white m-8 text-sm lg:text-base leading-6 text-justify lg:mx-6 lg:font-semibold 
+          <p className="text-white m-4 sm:m-8 text-sm lg:text-base leading-4 sm:leading-6 text-justify lg:mx-6 lg:font-semibold 
           2xl:w-5/6 2xl:mx-auto">Start by filling out a quick 
             survey tailored to understand your small business website needs. Your responses will guide 
             our developers in comprehending your requirements better, ensuring we deliver exactly 
@@ -155,9 +155,9 @@ export default function Home() {
         w-4/6 mx-auto rounded-md h-72 bg-cover mx-10 md:w-2/4 md:mx-auto lg:w-2/6 lg:rounded-2xl lg:mb-24">
 
           <div className="flex flex-col">
-            <h1 className="text-white text-3xl mx-8 mt-8 text-center font-semibold"> 
+            <h1 className="text-white text-xl sm:text-3xl mx-4 sm:mx-8 mt-8 text-center font-semibold"> 
               2. Prototype Build</h1>
-            <p className="text-white m-8 text-sm lg:text-base leading-6 text-justify lg:mx-6 lg:font-semibold 
+            <p className="text-white m-4 sm:m-8 text-sm lg:text-base leading-5 sm:leading-6 text-justify lg:mx-6 lg:font-semibold 
             2xl:w-5/6 2xl:mx-auto ">Next we’ll use your 
             survey input to build your tailor-made website for you, and share it with you within 
             1 week. At that time you can review and submit any edits or revisions, which we’ll 
@@ -172,9 +172,9 @@ export default function Home() {
         w-4/6 mx-auto rounded-md h-72 bg-cover mx-8 md:w-2/4 md:mx-auto lg:w-2/6 lg:rounded-2xl lg:mb-24">
 
           <div className="flex flex-col">
-            <h1 className="text-white text-3xl mx-8 lg:mx-0 mt-8 text-center font-semibold"> 
+            <h1 className="text-white text-xl sm:text-3xl mx-4 sm:mx-8 lg:mx-0 mt-8 text-center font-semibold"> 
               3. Refine, Publish, Deliver</h1>
-            <p className="text-white m-8 text-sm lg:text-base leading-6 text-justify lg:mx-6 lg:font-semibold 
+            <p className="text-white m-4 sm:m-8 text-sm lg:text-base leading-5 sm:leading-6 text-justify lg:mx-6 lg:font-semibold 
             2xl:w-5/6 2xl:mx-auto">We’ll spend 1 week 
             making sure we’ve captured all of your revisions, then finish and publish the site 
             online. Finally we’ll hand off everything to you, with the site ready to go.</p>
@@ -206,11 +206,11 @@ export default function Home() {
 
     <div className="flex flex-col text-white text-sm leading-7 text-justify p-10 mx-auto  mt-6 md:mt-0 xl:p-20 2xl:leading-8 2xl:text-lg">
       <div className="flex flex-col md:flex-row">
-        <div className="md:m-4">CollierTech brings over a decade of expertise in software development, systems administration, 
+        <div className="my-4 md:m-4">CollierTech brings over a decade of expertise in software development, systems administration, 
           and network operations, finely tuned for small businesses. With a proven track record of 
           completing numerous projects in various programming languages and deployment automation tools, 
           we ensure efficient processes tailored to your needs. </div>
-        <div className="md:m-4">Our satisfied clientele includes LiquidWeb, Doubleprime, Cadmium Yellow Design, and Computational 
+        <div className="my-4 md:m-4">Our satisfied clientele includes LiquidWeb, Doubleprime, Cadmium Yellow Design, and Computational 
           Biology Research Center. Each project showcases our dedication to delivering top-notch solutions 
           that align perfectly with our clients' goals. Trust CollierTech to bring precision, innovation, 
           and customer-centricity to your digital endeavors.</div>
@@ -232,11 +232,11 @@ export default function Home() {
     <div id="contact" className="flex flex-row bg-[url('.//public/FormLinkBkgnd.svg')] w-auto h-96 bg-cover md:w-3/4 
     md:rounded-lg lg:rounded-2xl md:mx-auto lg:w-4/6">
 
-      <div className="flex flex-col p-8 md:m-auto lg:w-auto lg:flex-row lg:p-2 2xl:w-5/6">
+      <div className="flex flex-col p-4 sm:p-8 md:m-auto lg:w-auto lg:flex-row lg:p-2 2xl:w-5/6">
         <div>
-          <h2 className="text-white font-semibold mx-8 my-4 md:text-center text-3xl lg:mx-16">Fill Out client
+          <h2 className="text-white font-semibold mx-4 my-2 sm:mx-8 sm:my-4 text-center text-3xl lg:mx-16">Fill Out Client
             Website Form Here</h2>
-          <p className="text-white m-8 md:my-12 leading-8 text-base text-justify lg:px-12 lg:text-lg ">Click here to access our Website Request 
+          <p className="text-white m-2 sm:m-8 md:my-12 leading-8 text-base text-justify lg:px-12 lg:text-lg ">Click here to access our Website Request 
           form, giving us details on what you’d like to see on your site and how you’d like 
           it to behave.</p>
         </div>
