@@ -111,18 +111,24 @@ export default function Home() {
     {/* Current Offering Div */}
 
 
-      <div id="services" className="flex flex-col w-5/6 m-auto mb-12 md:w-2/4 md:mx-auto lg:my-20 lg:w-2/5 ">
+      <div id="services" className="flex flex-col w-5/6 m-auto mb-12 md:w-2/4 md:mx-auto lg:my-20 lg:w-2/5 2xl:mb-20">
         <h2 className="text-white font-semibold mt-20 text-3xl sm:text-5xl text-center lg:text-5xl 2xl:text-6xl">
           Current Offering</h2>
         <Image className="p-10 md:h-80 md:w-96 md:m-auto lg:h-96 lg:w-auto" src= {croissant} />
-        <h1 className="text-white p-4 sm:px-10 md:px-8 lg:px-10 2xl:pl-28 text-xl sm:text-3xl font-bold">
-          Small Business Site</h1>
 
-        <div className="flex mb-10 2xl:mb-20">
-          <div className="text-white text-sm text-center py-2 mr-2 sm:p-4 sm:p-10 sm:text-base md:px-8 lg:px-10 2xl:pl-28 
-          2xl:pr-0 whitespace-nowrap  flex-1">1-3 pages, 14 days delivery</div>
-          <div className="text-white text-xl sm:text-3xl font-bold my-auto text-center w-2/6">$350</div>
+        <div className="flex justify-around sm:mx-10">
+          <div className="flex flex-col">
+            <h1 className="text-white text-lg font-bold mx-auto py-1 whitespace-nowrap sm:text-3xl  
+            ">Small Business Site</h1>
+              <p className="text-white text-sm py-2 mr-2 sm:py-4 sm:text-base md:text-lg  
+              whitespace-nowrap  ">1-3 pages, 14 days delivery</p>
+          </div>
+
+          <div className="flex text-white text-xl font-bold mt-10 justify-end w-2/6 sm:mt-14 sm:text-3xl ">
+            <p >$350</p>
+          </div>
         </div>
+
       </div>
 
 
