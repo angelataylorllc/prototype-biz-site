@@ -119,9 +119,9 @@ export default function Home() {
           Small Business Site</h1>
 
         <div className="flex mb-10 2xl:mb-20">
-          <div className="text-white text-sm py-2 sm:p-4 sm:text-base sm:p-10 md:px-8 lg:px-10 2xl:pl-28 2xl:pr-0 
-          whitespace-nowrap  flex-1">1-3 pages, 14 days delivery</div>
-          <div className="text-white text-xl sm:text-3xl font-bold my-auto text-center flex-1">$350</div>
+          <div className="text-white text-sm text-center py-2 mr-2 sm:p-4 sm:p-10 sm:text-base md:px-8 lg:px-10 2xl:pl-28 
+          2xl:pr-0 whitespace-nowrap  flex-1">1-3 pages, 14 days delivery</div>
+          <div className="text-white text-xl sm:text-3xl font-bold my-auto text-center w-2/6">$350</div>
         </div>
       </div>
 
