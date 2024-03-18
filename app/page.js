@@ -116,7 +116,7 @@ export default function Home() {
           Current Offering</h2>
         <Image className="p-10 md:h-80 md:w-96 md:m-auto lg:h-96 lg:w-auto" src= {croissant} />
 
-        <div className="flex justify-around sm:mx-10">
+        <div className="flex justify-around sm:mx-10 2xl:w-4/6 2xl:mx-auto">
           <div className="flex flex-col">
             <h1 className="text-white text-lg font-bold mx-auto py-1 whitespace-nowrap sm:text-3xl  
             ">Small Business Site</h1>
