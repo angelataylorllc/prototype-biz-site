@@ -26,11 +26,11 @@ export default function Home() {
               CollierTechnologies©</div>
 
             <div className="md:ml-auto">
-              <ul className="flex text-white pt-6 pb-10 text-xs gap-3 sm:text-sm sm:py-10  md:gap-8 
+              <ul className="flex text-white pt-6 pb-10 justify-around text-xs gap-3 sm:text-sm sm:py-10 md:gap-8 
                md:whitespace-nowrap md:text-base lg:text-lg lg:gap-6 xl:mr-16 xl:text-xl">
                 <li>
                   <div>
-                    <a className="cursor-pointer   text-lime-500" href="#">Home</a>
+                    <a className="cursor-pointer text-lime-500" href="#">Home</a>
                     <Image className="mx-auto w-full" src={underline} />
                   </div></li>
                 <li><a className="cursor-pointer " href="#services">Services</a></li>
