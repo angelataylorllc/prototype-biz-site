@@ -16,26 +16,26 @@ export default function Home() {
         {/* All Text above first white triangles */}
 
 
-        <div className="px-10">
+        <div className="px-4 sm:px-10">
 
           {/* Nav Menu */}
 
           <nav className="flex flex-col md:flex-row lg:w-9/12 lg:mx-auto lg:pt-12">
-            <div className="text-white  text-lg font-bold flex flex-col text-center pt-10 pb-4 sm:text-2xl  
+            <div className="text-white text-lg font-bold flex flex-col text-center pt-10 pb-4 sm:text-2xl  
             sm:py-10 md:pr-10 lg:text-3xl lg:pr-0">
               CollierTechnologies©</div>
 
             <div className="md:ml-auto">
-              <ul className="flex text-white pt-6 pb-10 text-xs sm:text-sm sm:py-10  md:gap-8 
+              <ul className="flex text-white pt-6 pb-10 text-xs gap-3 sm:text-sm sm:py-10  md:gap-8 
                md:whitespace-nowrap md:text-base lg:text-lg lg:gap-6 xl:mr-16 xl:text-xl">
                 <li>
                   <div>
-                    <a className="cursor-pointer text-l  text-lime-500" href="#">Home</a>
+                    <a className="cursor-pointer   text-lime-500" href="#">Home</a>
                     <Image className="mx-auto w-full" src={underline} />
                   </div></li>
-                <li><a className="cursor-pointer text-lg" href="#services">Services</a></li>
-                <li><a className="cursor-pointer text-lg" href="#HowItWorks">How It Works</a></li>
-                <li><a className="cursor-pointer text-lg" href="#contact">Contact</a></li>
+                <li><a className="cursor-pointer " href="#services">Services</a></li>
+                <li><a className="cursor-pointer " href="#HowItWorks">How It Works</a></li>
+                <li><a className="cursor-pointer " href="#contact">Contact</a></li>
               </ul>
 
             </div>
@@ -119,7 +119,7 @@ export default function Home() {
           Small Business Site</h1>
 
         <div className="flex mb-10 2xl:mb-20">
-          <div className="text-white text-sm sm:text-base p-4 sm:p-10 md:px-8 lg:px-10 2xl:pl-28 2xl:pr-0 
+          <div className="text-white text-sm py-2 sm:p-4 sm:text-base sm:p-10 md:px-8 lg:px-10 2xl:pl-28 2xl:pr-0 
           whitespace-nowrap  flex-1">1-3 pages, 14 days delivery</div>
           <div className="text-white text-xl sm:text-3xl font-bold my-auto text-center flex-1">$350</div>
         </div>
@@ -136,16 +136,17 @@ export default function Home() {
 
 
     <div id="HowItWorks" className="mb-10">
-      <h1 className="text-white text-2xl sm:text-4xl mx-8 mt-12 font-bold text-center p-10 lg:my-12 lg:text-5xl 
+      <h1 className="text-white text-xl sm:text-4xl mx-8 mt-12 font-bold text-center p-10 lg:my-12 lg:text-5xl 
       2xl:mt-20"> How It Works</h1>
 
       <div className="flex flex-row bg-[url('.//public/ramen25.jpg')] 
       w-4/6 mx-auto rounded-md h-72 bg-cover mx-10 md:w-2/4 md:mx-auto lg:w-2/6 lg:rounded-2xl lg:mb-24">
 
         <div className="flex flex-col ">
-          <h1 className="text-white text-xl sm:text-3xl mx-4 sm:mx-8 mt-4 sm:mt-8 lg:mx-2 lg:mt-4 text-center font-semibold"> 
+          <h1 className="text-white text-center font-semibold mt-4 mx-1 sm:text-3xl sm:mx-8  sm:mt-8 lg:mx-2 
+          lg:mt-4 "> 
             1. Fill Out Site Survey</h1>
-          <p className="text-white m-4 sm:m-8 text-sm lg:text-base leading-4 sm:leading-6 text-justify lg:mt-6 lg:mb-0 
+          <p className="text-white text-justify text-sm m-4 leading-4 sm:leading-6 sm:m-8  lg:text-base lg:mt-6 lg:mb-0 
           lg:mx-6 lg:font-semibold 2xl:w-5/6 2xl:mx-auto">Start by filling out a quick survey tailored to understand your 
             small business website needs. Your responses will guide our developers in comprehending your requirements 
             better, ensuring we deliver exactly what you want for your business's digital presence.</p>
@@ -159,9 +160,9 @@ export default function Home() {
         w-4/6 mx-auto rounded-md h-72 bg-cover mx-10 md:w-2/4 md:mx-auto lg:w-2/6 lg:rounded-2xl lg:mb-24">
 
           <div className="flex flex-col">
-            <h1 className="text-white text-xl sm:text-3xl mx-4 sm:mx-8 mt-8 text-center font-semibold"> 
+            <h1 className="text-white text-center font-semibold mt-4 sm:text-3xl mx-4 sm:mx-8 sm:mt-8"> 
               2. Prototype Build</h1>
-            <p className="text-white m-4 sm:m-8 text-sm lg:text-base leading-5 sm:leading-6 text-justify lg:mx-6 
+            <p className="text-white text-justify text-sm m-4 leading-4 sm:leading-6 sm:m-8 lg:text-base lg:mx-6 
             lg:font-semibold 2xl:w-5/6 2xl:mx-auto ">Next we’ll use your 
             survey input to build your tailor-made website for you, and share it with you within 
             1 week. At that time you can review and submit any edits or revisions, which we’ll 
@@ -176,10 +177,9 @@ export default function Home() {
         w-4/6 mx-auto rounded-md h-72 bg-cover mx-8 md:w-2/4 md:mx-auto lg:w-2/6 lg:rounded-2xl lg:mb-24">
 
           <div className="flex flex-col">
-            <h1 className="text-white text-xl sm:text-3xl mx-4 sm:mx-8 lg:mx-0 mt-8 text-center font-semibold"> 
+            <h1 className="text-white text-center sm:text-font-semibold mt-4 sm:text-3xl mx-4 sm:mx-8 lg:mx-0 sm:mt-8"> 
               3. Refine, Publish, Deliver</h1>
-            <p className="text-white m-4 sm:m-8 text-sm lg:text-base leading-5 sm:leading-6 text-justify lg:mt-6 lg:mb-0 
-          lg:mx-6 lg:mx-6 
+            <p className="text-white text-justify text-sm m-4 leading-4 sm:leading-6 sm:m-8 lg:text-base lg:mx-6 
             lg:font-semibold 2xl:w-5/6 2xl:mx-auto">We’ll spend 1 week 
             making sure we’ve captured all of your revisions, then finish and publish the site 
             online. Finally we’ll hand off everything to you, with the site ready to go.</p>
@@ -241,9 +241,10 @@ export default function Home() {
 
       <div className="flex flex-col p-4 sm:p-8 md:m-auto lg:w-auto lg:flex-row lg:p-2 2xl:w-5/6">
         <div>
-          <h2 className="text-white font-semibold mx-4 my-2 sm:mx-8 sm:my-4 text-center text-3xl lg:mx-16">
+          <h2 className="text-white text-center text-xl font-semibold mx-4 my-2 sm:text-3xl sm:mx-8 mt-12  lg:mx-16">
             Fill Out Client Website Form Here</h2>
-          <p className="text-white m-2 sm:m-8 md:my-12 leading-8 text-base text-justify lg:px-12 lg:text-lg ">
+          <p className="text-white text-base text-justify mt-4 mx-8 sm:leading-8 sm:m-12 sm:mt-10 md:my-12 lg:px-12
+           lg:text-lg">
             Click here to access our Website Request form, giving us details on what you’d like to see on your site 
             and how you’d like it to behave.</p>
         </div>
