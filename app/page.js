@@ -65,8 +65,8 @@ export default function Home() {
 
         <div className="flex flex-col mx-8 -mb-4 sm:mb-10 sm:mt-16 md:mt-20 md:-mb-20 lg:-mb-36 lg:mt-48 xl:-mb-48">
           <div className="text-lime-400 font-semibold text-2xl sm:text-3xl text-center mt-24">CUSTOMIZED</div>
-          <div className="text-white font-semibold  sm:mt-4 sm:w-5/6 sm:mx-auto text-3xl sm:text-4xl text-center 
-          mt-4 sm:mt-10 md:w-3/6 md:-mb-8 lg:w-2/6 2xl:-mb-16 2xl:text-5xl">
+          <div className="text-white font-semibold text-center text-3xl mt-4 sm:-mb-6 sm:w-5/6 sm:mx-auto  sm:text-4xl  
+           sm:mt-10 md:w-3/6 md:-mb-8 lg:w-2/6 2xl:-mb-16 2xl:text-5xl">
             Web Development Services</div>
         </div>
 
@@ -183,7 +183,7 @@ export default function Home() {
         w-4/6 mx-auto rounded-md h-72 bg-cover mx-8 md:w-2/4 md:mx-auto lg:w-2/6 lg:rounded-2xl lg:mb-24">
 
           <div className="flex flex-col">
-            <h1 className="text-white text-center sm:text-font-semibold mt-4 sm:text-3xl mx-4 sm:mx-8 lg:mx-0 sm:mt-8"> 
+            <h1 className="text-white text-center font-semibold mt-4 sm:text-3xl mx-4 sm:mx-8 lg:mx-0 sm:mt-8"> 
               3. Refine, Publish, Deliver</h1>
             <p className="text-white text-justify text-sm m-4 leading-4 sm:leading-6 sm:m-8 lg:text-base lg:mx-6 
             lg:font-semibold 2xl:w-5/6 2xl:mx-auto">We’ll spend 1 week 
@@ -200,8 +200,8 @@ export default function Home() {
 
     <div className="flex flex-col m-8 mb-0 md:w-3/6 md:mx-auto md:-mb-24 md:mt-40 md:w-4/6 lg:-mb-64 lg:mt-48 lg:w-3/6">
       <div className="text-lime-400 font-semibold text-2xl sm:text-3xl text-center mt-24">ABOUT US</div>
-      <div className="text-white font-semibold text-3xl sm:text-4xl text-center mt-4 sm:mt-10 w-5/6 sm:w-4/6 
-      mx-auto -mb-20 2xl:text-5xl 2xl:mb-0">
+      <div className="text-white font-semibold text-center text-3xl mt-4 mx-auto w-5/6 -mb-20 sm:text-4xl  sm:mt-10  
+      sm:w-4/6 sm:-mb-16 2xl:text-5xl 2xl:mb-0">
         We Build Beautiful Websites for You</div>
     </div>
 
