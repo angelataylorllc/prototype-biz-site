@@ -23,7 +23,7 @@ export default function Home() {
           <nav className="flex flex-col md:flex-row lg:w-9/12 lg:mx-auto lg:pt-12">
             <div className="text-white text-lg font-bold flex flex-col text-center pt-10 pb-4 sm:text-2xl  
             sm:py-10 md:pr-10 lg:text-3xl lg:pr-0">
-              CollierTechnologies©</div>
+              Collier Technologies LLC</div>
 
             <div className="md:ml-auto">
               <ul className="flex text-white pt-6 pb-10 justify-around text-xs gap-3 sm:text-sm sm:py-10 md:gap-8 
@@ -219,14 +219,13 @@ export default function Home() {
     <div className="flex flex-col text-white text-sm leading-7 text-justify p-10 mx-auto  mt-6 md:mt-0 xl:p-20 
     2xl:leading-8 2xl:text-lg">
       <div className="flex flex-col md:flex-row">
-        <div className="my-4 md:m-4">CollierTech brings over a decade of expertise in software development, 
-          systems administration, and network operations, finely tuned for small businesses. With a proven track 
-          record of completing numerous projects in various programming languages and deployment automation tools, 
-          we ensure efficient processes tailored to your needs. </div>
-        <div className="my-4 md:m-4">Our satisfied clientele includes LiquidWeb, Doubleprime, Cadmium Yellow Design, 
-          and Computational Biology Research Center. Each project showcases our dedication to delivering top-notch 
-          solutions that align perfectly with our clients' goals. Trust CollierTech to bring precision, innovation, 
-          and customer-centricity to your digital endeavors.</div>
+        <div className="my-4 md:m-4">CCollier Technologies LLC brings over a decade of expertise in software development, 
+        systems administration, and network operations to the table. While our background spans various sectors, we now 
+        focus on leveraging this wealth of experience to serve small businesses effectively. Rest assured, our seasoned 
+        team is dedicated to delivering top-notch solutions tailored precisely to your needs.  </div>
+        <div className="my-4 md:m-4">Our experience spans numerous projects, highlighting our commitment to delivering 
+        high-quality solutions that align with clients' goals and exceed expectations. Partner with Collier Technologies 
+        LLC for reliable expertise that ensures your digital initiatives thrive.</div>
       </div>
 
 
@@ -272,7 +271,7 @@ export default function Home() {
 
 
     <div className="text-white  flex flex-col text-center py-10 md:mt-16 md:flex-row md:justify-center lg:pt-20">
-      <div className="font-bold text-2xl mt-16 mb-6 md:mr-16 lg:my-auto lg:py-10">CollierTechnologies©</div>
+      <div className="font-bold text-2xl mt-16 mb-6 md:mr-16 lg:my-auto lg:py-10">Collier Technologies LLC</div>
       <div className="text-xl mb-6 md:mt-16 md:mr-16 lg:my-auto lg:py-10">cjac@colliertech.com</div>
       <div className="text-xl md:mt-16 lg:my-auto lg:py-10">+1 425 523 2637</div>
     </div>
