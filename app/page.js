@@ -219,11 +219,11 @@ export default function Home() {
     <div className="flex flex-col text-white text-sm leading-7 text-justify p-10 mx-auto  mt-6 md:mt-0 xl:p-20 
     2xl:leading-8 2xl:text-lg">
       <div className="flex flex-col md:flex-row">
-        <div className="my-4 md:m-4">CCollier Technologies LLC brings over a decade of expertise in software development, 
+        <div className="flex flex-1 my-4 md:m-4">Collier Technologies LLC brings over a decade of expertise in software development, 
         systems administration, and network operations to the table. While our background spans various sectors, we now 
         focus on leveraging this wealth of experience to serve small businesses effectively. Rest assured, our seasoned 
         team is dedicated to delivering top-notch solutions tailored precisely to your needs.  </div>
-        <div className="my-4 md:m-4">Our experience spans numerous projects, highlighting our commitment to delivering 
+        <div className="flex flex-1 my-4 md:m-4">Our experience spans numerous projects, highlighting our commitment to delivering 
         high-quality solutions that align with clients' goals and exceed expectations. Partner with Collier Technologies 
         LLC for reliable expertise that ensures your digital initiatives thrive.</div>
       </div>
